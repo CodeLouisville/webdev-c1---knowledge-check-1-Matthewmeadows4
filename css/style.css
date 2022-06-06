@@ -22,6 +22,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 /* Layout
@@ -62,6 +63,11 @@ body {
     text-align: center;
     padding: 24px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 
 .aboutme-container {
@@ -74,12 +80,14 @@ body {
 
 .aboutme-content {
     color: #F1F1F1;
+    background-color: #1b1b27p;
     width: 100%;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 12px;
 }
 
@@ -121,6 +129,19 @@ body {
     max-width: 1000px;
     text-align: center;
 }
+
+.contact-container{
+    background-color:#29326a ;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cabin', sans-serif;
+    line-height: 1;
+}
+
 
 /* Links and Link Buttons
 ========================================================================== */
@@ -178,9 +199,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
-    color: #F1F1F1;
-    border: 2px solid #666666;
+    background:  #74b44a;
+    color: white;
+    border: 2px solid  #74b44a;
 }
 
 .btn, .btn:visited  {
