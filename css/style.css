@@ -129,21 +129,17 @@ body {
     text-align: center;
 }
 
-
-
-
-.ContactForm {
+.contact-container{
+    background-color:#29326a ;
+    color: white;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    line-height: 1;
 }
-
-@font-face {
-    font-family: ;
-    src: url("https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700");
-}
-
 
 
 /* Links and Link Buttons
