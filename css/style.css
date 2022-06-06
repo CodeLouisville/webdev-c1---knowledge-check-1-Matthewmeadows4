@@ -198,9 +198,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
-    color: #74b44a;
-    border: 2px solid #666666;
+    background:  #74b44a;
+    color: white;
+    border: 2px solid  #74b44a;
 }
 
 .btn, .btn:visited  {
