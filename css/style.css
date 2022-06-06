@@ -65,7 +65,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+    height: 500px;
 }
 
 .aboutme-container {
@@ -78,12 +78,14 @@ body {
 
 .aboutme-content {
     color: #F1F1F1;
+    background-color: #1b1b27;
     width: 100%;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 12px;
 }
 
