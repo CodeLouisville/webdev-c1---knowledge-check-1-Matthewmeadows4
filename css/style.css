@@ -78,7 +78,7 @@ body {
 
 .aboutme-content {
     color: #F1F1F1;
-    background-color: #1b1b27;
+    background-color: #1b1b27p;
     width: 100%;
     max-width: 1000px;
     display: flex;
@@ -185,7 +185,7 @@ a:hover, a:active {
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: #F1F1F1;
+    color: red;
     border: 2px solid #666666;
 }
 
