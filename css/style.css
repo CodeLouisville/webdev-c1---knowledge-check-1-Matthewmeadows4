@@ -22,6 +22,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 /* Layout
@@ -128,6 +129,23 @@ body {
     text-align: center;
 }
 
+
+
+
+.ContactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@font-face {
+    font-family: ;
+    src: url("https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700");
+}
+
+
+
 /* Links and Link Buttons
 ========================================================================== */
 a {
@@ -185,7 +203,7 @@ a:hover, a:active {
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: red;
+    color: #74b44a;
     border: 2px solid #666666;
 }
 
